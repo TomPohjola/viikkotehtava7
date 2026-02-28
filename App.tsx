@@ -4,7 +4,7 @@ import { Button, Dimensions, StyleSheet, Text, TextInput, View } from 'react-nat
 import { WeatherType } from './types/jsonType';
 import WeatherInfo from './components/WeatherInfo';
 
-const apikey: String = "09c7fae591739a5dab6057d89d906739"
+const apikey: String = ""
 const { width, height } = Dimensions.get("window"); //haetaan luurin näytön koot, jolla sitten määritellään eri elementtien kokoja dynaamisesti
 
 export default function App() {
